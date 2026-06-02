@@ -9,7 +9,7 @@ set -e
 # Optional overrides:
 #   ENV_NAME=6dpose_test REPO_DIR=$PWD bash setup_full_edm.sh
 
-ENV_NAME="${ENV_NAME:-6dpose_test}"
+ENV_NAME="${ENV_NAME:-6dpose_full_edm}"
 REPO_DIR="${REPO_DIR:-$PWD}"
 SAM2_DIR="${SAM2_DIR:-$REPO_DIR/sam2_repo}"
 
